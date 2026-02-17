@@ -1,0 +1,18 @@
+#first row: ID n_img zs err_zs
+# ID can be arbitrary number.
+#  n_img is the number of lensed images
+#  zs is the redshift of the background source
+#  err_zs is the redshift uncertainty of the background source
+#
+
+# following rows: information of the lensed images: x[1] y[1] f[1] err_xy[1] err_f[1] dt[1] err_dt[1] parity[1]
+# x[1], y[1] are the coordinates of the lensed images, in arcsec
+# f[1] is the flux (not the magnitude)
+# err_xy[1] is the error of x and y
+# err_f[1] is the error of the flux
+# remaining fields are not usef for now, just set them to 0
+# for additional lensed images, add more rows following the same format.
+
+1 1 5.07 0.01
+-0.648 0.051 1 0.01 1 0 0 0
+#0.2127 -0.6273 1 0.01 1 0 0 0
